@@ -30,7 +30,7 @@
     @param correct: array to read correctly guessed characters from
     @return nothing
 */
-void draw_game(const u32 wrong_guesses, const u8 *guessed, const u8 *correct)
+u0 draw_game(const u32 wrong_guesses, const u8 *guessed, const u8 *correct)
 {
 #ifdef WINDOWS
         /* using system is bad practice, but it's also the simplest...*/
