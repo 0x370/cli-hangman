@@ -37,7 +37,7 @@ void draw_game(const u32 wrong_guesses, const u8 *guessed, const u8 *correct)
         system("cls");
 #else
         printf("\e[1;1H\e[2J");
-#endif // WINDOWS
+#endif /* WINDOWS */
 
         printf("guessed: %s\n", guessed);
         printf("correct: %s\n", correct);
